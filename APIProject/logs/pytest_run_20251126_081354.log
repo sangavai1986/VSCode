@@ -1,0 +1,26 @@
+2025-11-26 08:13:54 [INFO] LOGGING STARTED for: pytest_run
+2025-11-26 08:13:54 [INFO] Starting test: test_add_object
+2025-11-26 08:13:58 [INFO] https://api.restful-api.dev/objects
+2025-11-26 08:13:58 [INFO] {'name': 'Apple MacBook Pro 16', 'data': {'year': 2019, 'price': 1849.99, 'CPU model': 'Intel Core i9', 'Hard disk size': '1 TB'}}
+2025-11-26 08:13:58 [INFO] RESP TEXT {"id":"ff8081819782e69e019ac04c97cd056f","name":"Apple MacBook Pro 16","createdAt":"2025-11-26T13:13:56.429+00:00","data":{"year":2019,"price":1849.99,"CPU model":"Intel Core i9","Hard disk size":"1 TB"}}
+2025-11-26 08:13:58 [INFO] {
+    "id": "ff8081819782e69e019ac04c97cd056f",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-11-26T13:13:56.429+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-11-26 08:13:58 [INFO] {'$schema': 'http://json-schema.org/draft-07/schema#', 'title': 'Generated schema for Root', 'type': 'object', 'properties': {'id': {'type': 'string'}, 'name': {'type': 'string'}, 'createdAt': {'type': 'string'}, 'data': {'type': 'object', 'properties': {'year': {'type': 'number'}, 'price': {'type': 'number'}, 'CPU model': {'type': 'string'}, 'Hard disk size': {'type': 'string'}}, 'required': ['year', 'price', 'CPU model', 'Hard disk size']}}, 'required': ['id', 'name', 'createdAt', 'data']}
+2025-11-26 08:13:58 [INFO] Schema Validation passed
+2025-11-26 08:13:58 [INFO] Finished test: test_add_object
+2025-11-26 08:13:58 [INFO] Starting test: test_mm
+2025-11-26 08:13:59 [INFO] TEST PASSED
+2025-11-26 08:13:59 [INFO] Finished test: test_mm
+2025-11-26 08:13:59 [INFO] Starting test: test_validate
+2025-11-26 08:14:01 [INFO] {'id': '2', 'name': 'Apple iPhone 12 Mini, 256GB, Blue', 'data': None}
+2025-11-26 08:14:01 [INFO] TEST PASSED
+2025-11-26 08:14:01 [INFO] Finished test: test_validate

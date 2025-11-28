@@ -1,0 +1,8 @@
+Create a venv
+Ctrl + ` ==> create a virtual environment
+./venv/Scripts/Activate.ps1
+
+Install all the requirements.txt
+
+For json data to schema conversion
+https://transform.tools/json-to-json-schema

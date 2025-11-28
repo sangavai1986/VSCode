@@ -1,0 +1,6 @@
+2025-11-24 12:29:13 [INFO] LOGGING STARTED for: pytest_run
+2025-11-24 12:29:13 [INFO] Starting test: test_mm
+2025-11-24 12:29:15 [INFO] TEST PASSED
+2025-11-24 12:29:15 [INFO] Finished test: test_mm
+2025-11-24 12:29:15 [INFO] Starting test: test_validate
+2025-11-24 12:29:16 [INFO] Finished test: test_validate

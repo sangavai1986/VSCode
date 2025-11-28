@@ -1,0 +1,11 @@
+.\.venv\Scripts\Activate.ps1 
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+pip install selenium
+pip install pytest
+pip install requests
+pip install allure-pytest
+pip install json
+pip install jsonschema
+pip install genson
+
+setx x-api-key "reqres-free-v1"

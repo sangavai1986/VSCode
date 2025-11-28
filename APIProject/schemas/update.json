@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "number"
+        },
+        "price": {
+          "type": "number"
+        },
+        "CPU model": {
+          "type": "string"
+        },
+        "Hard disk size": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "year",
+        "price",
+        "CPU model",
+        "Hard disk size",
+        "color"
+      ]
+    },
+    "updatedAt": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "data",
+    "updatedAt"
+  ]
+}
