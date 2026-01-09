@@ -11,7 +11,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 import requests
 from config import base_url
-from api_utils.base_client import BaseClient
+from APIProject.api_utils.base_client_old import BaseClient
 
 schema_json = "create.json"
 data_json = "create_payload.json"

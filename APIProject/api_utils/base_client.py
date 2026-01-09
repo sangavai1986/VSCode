@@ -1,32 +1,63 @@
 import sys
 import os
-
-# Add project root to sys.path
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, ROOT)
-from config import headers as default_headers
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 class BaseClient:
-    def __init__(self):
-        pass
-    def get(self,url, headers=None):
-        response = requests.get(url,headers=headers)
-        return response
-    
-    def post(self,url, data=None, headers=None):
-        # Merge default headers with overrides
-        final_headers = default_headers.copy()
-        if headers:
-            final_headers.update(headers)
-        
-        response = requests.post(url, json=data, headers=final_headers)
-        return response
-    def put(self,url, data=None, headers=None):
-        # Merge default headers with overrides
-        final_headers = default_headers.copy()
-        if headers:
-            final_headers.update(headers)
-        
-        response = requests.post(url, json=data, headers=final_headers)
-        return response
+    def __init__(self, base_url, auth_client=None):
+        self.base_url = base_url
+        self.auth_client = auth_client
+        self.timeout = int(os.getenv("API_TIMEOUT", 5))
+        self.session = self._create_session()
+    def _create_session(self):
+        retry_strategy = Retry(
+            total=3,
+            status_forcelist=[429, 500, 502, 503, 504],
+            allowed_methods=["GET", "POST", "PUT", "DELETE"],
+            backoff_factor=0.5,
+            raise_on_status=False
+        )
+        adapter = HTTPAdapter(max_retries=retry_strategy)
+        session = requests.Session()
+        session.mount("https://", adapter)
+        session.mount("http://", adapter)
+        return session
+    def _headers(self):
+        headers = {"Content-Type": "application/json"}
+        if self.auth_client:
+            try:
+                token = self.auth_client.get_token()
+                if token:
+                    headers["Authorization"] = f"Bearer {token}"
+            except Exception:
+                pass
+        return headers
+    def get(self, path):
+        return self.session.get(
+            self.base_url + path,
+            headers=self._headers(),
+            timeout=self.timeout
+        )
+
+    def post(self, path, payload):
+        return self.session.post(
+            self.base_url + path,
+            json=payload,
+            headers=self._headers(),
+            timeout=self.timeout
+        )
+    def put(self, path, payload):
+        return self.session.put(
+            self.base_url + path,
+            json=payload,
+            headers=self._headers(),
+            timeout=self.timeout
+        )
+
+    def delete(self, path):
+        return self.session.delete(
+            self.base_url + path,
+            headers=self._headers(),
+            timeout=self.timeout
+        )

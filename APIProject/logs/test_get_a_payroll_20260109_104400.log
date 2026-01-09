@@ -1,0 +1,4 @@
+2026-01-09 10:44:00 [INFO] LOGGING STARTED for: test_get_a_payroll
+2026-01-09 10:44:00 [INFO] Starting test: test_get_a_payroll
+2026-01-09 10:44:01 [INFO] TEST PASSED
+2026-01-09 10:44:01 [INFO] Finished test: test_get_a_payroll

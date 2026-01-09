@@ -1,0 +1,32 @@
+2026-01-05 09:58:58 [INFO] LOGGING STARTED for: pytest_run
+2026-01-05 09:58:59 [INFO] Starting test: test_add_object
+2026-01-05 09:59:05 [INFO] Schema Validation passed
+2026-01-05 09:59:05 [INFO] ff8081819782e69e019b8eab284b4ec0
+2026-01-05 09:59:05 [INFO] Finished test: test_add_object
+2026-01-05 09:59:05 [INFO] Starting test: test_api
+2026-01-05 09:59:06 [INFO] API KEY AUTHENTICATION TESTED
+2026-01-05 09:59:06 [INFO] Finished test: test_api
+2026-01-05 09:59:06 [INFO] Starting test: test_create_employee
+2026-01-05 09:59:06 [INFO] Base URL: https://a404cb5b-fc3a-46d1-a8cc-6f72f08d71db.mock.pstmn.io
+2026-01-05 09:59:07 [INFO] TEST PASSED
+2026-01-05 09:59:07 [INFO] Finished test: test_create_employee
+2026-01-05 09:59:07 [INFO] Starting test: test_delete_employee
+2026-01-05 09:59:07 [INFO] Base URL: https://a404cb5b-fc3a-46d1-a8cc-6f72f08d71db.mock.pstmn.io
+2026-01-05 09:59:08 [INFO] TEST PASSED
+2026-01-05 09:59:08 [INFO] Finished test: test_delete_employee
+2026-01-05 09:59:08 [INFO] Starting test: test_get_employees
+2026-01-05 09:59:08 [INFO] Base URL: https://a404cb5b-fc3a-46d1-a8cc-6f72f08d71db.mock.pstmn.io
+2026-01-05 09:59:12 [INFO] Finished test: test_get_employees
+2026-01-05 09:59:12 [INFO] Starting test: test_mm
+2026-01-05 09:59:14 [INFO] TEST PASSED
+2026-01-05 09:59:14 [INFO] Finished test: test_mm
+2026-01-05 09:59:14 [INFO] Starting test: test_country_iso[India-IN]
+2026-01-05 09:59:15 [INFO] Finished test: test_country_iso[India-IN]
+2026-01-05 09:59:15 [INFO] Starting test: test_country_iso[United States-US]
+2026-01-05 09:59:15 [INFO] Finished test: test_country_iso[United States-US]
+2026-01-05 09:59:15 [INFO] Starting test: test_capital
+2026-01-05 09:59:15 [INFO] Finished test: test_capital
+2026-01-05 09:59:15 [INFO] Starting test: test_update_employee
+2026-01-05 09:59:15 [INFO] Base URL: https://a404cb5b-fc3a-46d1-a8cc-6f72f08d71db.mock.pstmn.io
+2026-01-05 09:59:16 [INFO] TEST PASSED
+2026-01-05 09:59:16 [INFO] Finished test: test_update_employee

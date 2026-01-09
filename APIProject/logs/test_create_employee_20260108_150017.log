@@ -1,0 +1,4 @@
+2026-01-08 15:00:17 [INFO] LOGGING STARTED for: test_create_employee
+2026-01-08 15:00:17 [INFO] Starting test: test_create_employee
+2026-01-08 15:00:17 [INFO] Base URL: None
+2026-01-08 15:00:17 [INFO] Finished test: test_create_employee

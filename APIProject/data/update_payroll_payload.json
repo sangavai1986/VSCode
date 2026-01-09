@@ -1,0 +1,24 @@
+{
+  "period": "June 2023",
+  "status": "processing",
+  "salaries": [
+    {
+      "employeeId": "employee1",
+      "amount": 9000
+    },
+    {
+      "employeeId": "employee2",
+      "amount": 8000
+    }
+  ],
+  "deductions": [
+    {
+      "deductionId": "deduction1",
+      "amount": 1000
+    },
+    {
+      "deductionId": "deduction2",
+      "amount": 500
+    }
+  ]
+}

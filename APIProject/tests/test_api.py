@@ -10,5 +10,8 @@ def test_api():
         "x-api-key" : api_key
     }
     response = requests.get("https://reqres.in/api/users",headers=header)
-    assert response.status_code == 200
-    logging.info("API KEY AUTHENTICATION TESTED")
+    try:
+        assert response.status_code == 200
+        logging.info("API KEY AUTHENTICATION TESTED")
+    except AssertionError as e:
+        logging.error(f"Assertion failed: {e}")

@@ -1,0 +1,5 @@
+[32mINFO    [0m root:conftest.py:24 []
+[32mINFO    [0m root:conftest.py:41 Running on chrome browser
+[32mINFO    [0m root:conftest.py:76 Login successful for user: Admin
+[32mINFO    [0m root:test_login.py:17 Logged in user: Malka Nidam
+[32mINFO    [0m root:test_login.py:19 Login passed for {'username': 'Admin', 'password': 'admin123'}

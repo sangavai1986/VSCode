@@ -1,0 +1,5 @@
+2026-01-05 16:43:55 [INFO] []
+2026-01-05 16:43:55 [INFO] Running on chrome browser
+2026-01-05 16:44:05 [INFO] Login successful for user: Admin
+2026-01-05 16:44:05 [INFO] Logged in user: Malka Nidam
+2026-01-05 16:44:05 [INFO] Login passed for {'username': 'Admin', 'password': 'admin123'}

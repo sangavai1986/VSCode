@@ -1,0 +1,18 @@
+{
+  "name": "Emily Johnson",
+  "email": "emilyjohnson@example.com",
+  "jobTitle": "Accountant",
+  "salary": 4500,
+  "deductions": [
+    {
+      "deductionId": "deduction1",
+      "name": "Tax",
+      "amount": 1000
+    },
+    {
+      "deductionId": "deduction2",
+      "name": "Insurance",
+      "amount": 500
+    }
+  ]
+}

@@ -6,6 +6,8 @@ pip install requests
 pip install allure-pytest
 pip install json
 pip install jsonschema
-pip install genson
 
-setx x-api-key "reqres-free-v1"
+
+$env:x-api-key="reqres-free-v1"
+$env:BASE_URL="https://a404cb5b-fc3a-46d1-a8cc-6f72f08d71db.mock.pstmn.io"
+$env:PYTHONPATH="C:\Users\eksri\NMMProject\APIProject"  

@@ -1,2 +1,0 @@
-[32mINFO    [0m root:conftest.py:12 Starting test: test_api
-[32mINFO    [0m root:conftest.py:14 Finished test: test_api

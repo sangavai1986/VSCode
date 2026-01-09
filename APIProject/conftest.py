@@ -3,6 +3,10 @@ import logging
 import pytest
 import os
 import sys
+from api_utils.base_client import BaseClient
+from api_utils.employee_client import EmployeeClient
+from api_utils.payroll_client import PayrollClient
+
 # Absolute path to the project root (APIProject folder)
 ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ROOT)
@@ -37,3 +41,15 @@ def pytest_configure(config):
     )
 
     logging.info(f"LOGGING STARTED for: {script_name}")
+
+@pytest.fixture(scope="session")
+def base_client():
+    return BaseClient(os.getenv("BASE_URL"))
+
+@pytest.fixture
+def employee_client(base_client):
+    return EmployeeClient(base_client)
+
+@pytest.fixture
+def payroll_client(base_client):
+    return PayrollClient(base_client)
