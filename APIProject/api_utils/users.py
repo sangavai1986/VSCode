@@ -10,7 +10,7 @@ import os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 import requests
-from config import base_url
+from config import base_url_key
 from APIProject.api_utils.base_client_old import BaseClient
 
 schema_json = "create.json"
