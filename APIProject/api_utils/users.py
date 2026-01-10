@@ -59,6 +59,6 @@ def create_object(payload_file, extra_headers=None):
     if extra_headers:
         final_headers.update(extra_headers)
 
-    url = base_url + "/objects"
+    url = base_url_key + "/objects"
     response = requests.post(url, json=payload, headers=final_headers)
     return response
