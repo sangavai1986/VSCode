@@ -5,4 +5,4 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ROOT)
 
 headers = {"Content-Type": "json"}
-base_url = "https://api.restful-api.dev"
+base_url_key = "https://api.restful-api.dev"
