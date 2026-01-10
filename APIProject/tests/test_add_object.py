@@ -5,14 +5,14 @@ from pathlib import Path
 import logging
 
 import requests
-from config import base_url
+from config import base_url_key
 
 from api_utils.users import create_object,schema_values
 
 headers = { "Content-Type": "application/json"}
 
 def test_add_object():
-    url = base_url + "/objects"
+    url = base_url_key + "/objects"
     response = create_object("create_payload.json")
     json_data = response.json()
     assert response.status_code == 200
