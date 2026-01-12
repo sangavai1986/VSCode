@@ -1,3 +1,0 @@
-[32mINFO    [0m root:conftest.py:20 Starting test: test_update_payroll
-[32mINFO    [0m root:test_update_payroll.py:18 TEST PASSED: Payroll Updated Successfully for ID payroll3
-[32mINFO    [0m root:conftest.py:22 Finished test: test_update_payroll

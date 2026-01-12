@@ -1,0 +1,4 @@
+2026-01-11 19:35:32 [INFO] LOGGING STARTED for: test_api
+2026-01-11 19:35:32 [INFO] Starting test: test_api
+2026-01-11 19:35:33 [INFO] API KEY AUTHENTICATION TESTED
+2026-01-11 19:35:33 [INFO] Finished test: test_api

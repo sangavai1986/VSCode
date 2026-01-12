@@ -1,3 +1,0 @@
-[32mINFO    [0m root:conftest.py:20 Starting test: test_get_a_payroll
-[32mINFO    [0m root:test_get_a_payroll.py:15 TEST PASSED: Payroll Retrieved Successfully for ID payroll3
-[32mINFO    [0m root:conftest.py:22 Finished test: test_get_a_payroll

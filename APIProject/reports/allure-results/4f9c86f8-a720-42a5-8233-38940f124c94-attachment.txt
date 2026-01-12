@@ -1,2 +1,0 @@
-[32mINFO    [0m root:conftest.py:20 Starting test: test_capital
-[32mINFO    [0m root:conftest.py:22 Finished test: test_capital

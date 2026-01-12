@@ -1,3 +1,0 @@
-[32mINFO    [0m root:conftest.py:20 Starting test: test_mm
-[32mINFO    [0m root:test_mm_all_inquiries.py:12 TEST PASSED
-[32mINFO    [0m root:conftest.py:22 Finished test: test_mm

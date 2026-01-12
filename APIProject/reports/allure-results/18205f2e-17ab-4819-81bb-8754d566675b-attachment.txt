@@ -1,3 +1,0 @@
-[32mINFO    [0m root:conftest.py:20 Starting test: test_create_employee
-[32mINFO    [0m root:test_create_employee.py:27 TEST PASSED: Employee Created Successfully
-[32mINFO    [0m root:conftest.py:22 Finished test: test_create_employee

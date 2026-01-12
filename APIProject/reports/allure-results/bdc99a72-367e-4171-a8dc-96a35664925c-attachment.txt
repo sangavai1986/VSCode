@@ -1,3 +1,0 @@
-[32mINFO    [0m root:conftest.py:20 Starting test: test_create_payroll
-[32mINFO    [0m root:test_create_payroll.py:26 TEST PASSED: Payroll Created Successfully
-[32mINFO    [0m root:conftest.py:22 Finished test: test_create_payroll

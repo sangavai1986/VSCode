@@ -21,9 +21,17 @@ def test_create_payroll(payroll_client):
         assert response.status_code == 201, f"Not expected status code"
         pay_id = response.json().get("id")
         result = payroll_client.get_payroll(pay_id)
-        #assert result == "payroll3", "Response does not match expected employee ID"
         assert validate_json_key(response.json(), "id", pay_id), "Response does not contain 'id' key"
         logging.info("TEST PASSED: Payroll Created Successfully")
     except AssertionError as e:
         logging.error(f"Assertion failed: {e}")
         raise e
+    finally:
+        # Cleanup - delete the created payroll
+        pay_id = response.json().get("id")
+        if pay_id:
+            del_response = payroll_client.delete_payroll(pay_id)
+            if del_response.status_code == 200:
+                logging.info(f"Cleanup: Payroll with ID {pay_id} deleted successfully.")
+            else:
+                logging.error(f"Cleanup failed: Could not delete payroll with ID {pay_id}.")

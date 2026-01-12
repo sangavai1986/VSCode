@@ -1,0 +1,4 @@
+2026-01-12 12:06:33 [INFO] LOGGING STARTED for: test_delete_employee
+2026-01-12 12:06:33 [INFO] Starting test: test_delete_employee
+2026-01-12 12:06:35 [INFO] TEST PASSED: Employee Deleted Successfully for ID employee3
+2026-01-12 12:06:35 [INFO] Finished test: test_delete_employee
