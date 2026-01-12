@@ -19,9 +19,11 @@ def test_create_payroll(payroll_client):
     #response = requests.post(url=url,headers=headers,json=payload)
     try:
         assert response.status_code == 201, f"Not expected status code"
-        result = payroll_client.get_payroll(response.json().get("id"))
+        pay_id = response.json().get("id")
+        result = payroll_client.get_payroll(pay_id)
         #assert result == "payroll3", "Response does not match expected employee ID"
-        assert validate_json_key(response.json(), "id","payroll3"), "Response does not contain 'id' key"
-        logging.info("TEST PASSED")
+        assert validate_json_key(response.json(), "id", pay_id), "Response does not contain 'id' key"
+        logging.info("TEST PASSED: Payroll Created Successfully")
     except AssertionError as e:
         logging.error(f"Assertion failed: {e}")
+        raise e

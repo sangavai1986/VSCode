@@ -1,0 +1,44 @@
+2026-01-11 18:30:55 [INFO] LOGGING STARTED for: pytest_run
+2026-01-11 18:30:56 [INFO] Starting test: test_add_object
+2026-01-11 18:30:57 [INFO] Schema Validation passed
+2026-01-11 18:30:57 [INFO] ff8081819782e69e019baf66043815d0
+2026-01-11 18:30:57 [INFO] Finished test: test_add_object
+2026-01-11 18:30:57 [INFO] Starting test: test_api
+2026-01-11 18:30:57 [ERROR] Assertion failed: assert 401 == 200
+ +  where 401 = <Response [401]>.status_code
+2026-01-11 18:30:57 [INFO] Finished test: test_api
+2026-01-11 18:30:57 [INFO] Starting test: test_create_employee
+2026-01-11 18:30:58 [ERROR] Assertion failed: Not expected status code
+assert 201 == 200
+ +  where 201 = <Response [201]>.status_code
+2026-01-11 18:30:58 [INFO] Finished test: test_create_employee
+2026-01-11 18:30:58 [INFO] Starting test: test_create_payroll
+2026-01-11 18:30:59 [INFO] TEST PASSED: Payroll Created Successfully
+2026-01-11 18:30:59 [INFO] Finished test: test_create_payroll
+2026-01-11 18:30:59 [INFO] Starting test: test_delete_employee
+2026-01-11 18:30:59 [INFO] TEST PASSED: Employee Deleted Successfully for ID employee3
+2026-01-11 18:31:00 [INFO] Finished test: test_delete_employee
+2026-01-11 18:31:00 [INFO] Starting test: test_delete_payroll
+2026-01-11 18:31:00 [INFO] TEST PASSED: Payroll Deleted Successfully for ID payroll3
+2026-01-11 18:31:00 [INFO] Finished test: test_delete_payroll
+2026-01-11 18:31:00 [INFO] Starting test: test_get_a_payroll
+2026-01-11 18:31:01 [INFO] TEST PASSED: Payroll Retrieved Successfully for ID payroll3
+2026-01-11 18:31:05 [INFO] Finished test: test_get_a_payroll
+2026-01-11 18:31:05 [INFO] Starting test: test_get_employees
+2026-01-11 18:31:05 [INFO] Base URL: https://a404cb5b-fc3a-46d1-a8cc-6f72f08d71db.mock.pstmn.io
+2026-01-11 18:31:05 [INFO] TEST PASSED: Employees Retrieved Successfully
+2026-01-11 18:31:05 [INFO] Finished test: test_get_employees
+2026-01-11 18:31:05 [INFO] Starting test: test_mm
+2026-01-11 18:31:06 [INFO] Finished test: test_mm
+2026-01-11 18:31:06 [INFO] Starting test: test_country_iso[India-IN]
+2026-01-11 18:31:06 [INFO] Finished test: test_country_iso[India-IN]
+2026-01-11 18:31:06 [INFO] Starting test: test_country_iso[United States-US]
+2026-01-11 18:31:06 [INFO] Finished test: test_country_iso[United States-US]
+2026-01-11 18:31:06 [INFO] Starting test: test_capital
+2026-01-11 18:31:06 [INFO] Finished test: test_capital
+2026-01-11 18:31:06 [INFO] Starting test: test_update_employee
+2026-01-11 18:31:07 [INFO] TEST PASSED : Employee Updated Successfully for ID {emp_id}
+2026-01-11 18:31:07 [INFO] Finished test: test_update_employee
+2026-01-11 18:31:07 [INFO] Starting test: test_update_payroll
+2026-01-11 18:31:08 [INFO] TEST PASSED: Payroll Updated Successfully for ID payroll3
+2026-01-11 18:31:08 [INFO] Finished test: test_update_payroll

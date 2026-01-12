@@ -23,4 +23,5 @@ def test_add_object():
         logging.info(json_data["id"])
     except ValidationError as e:
         logging.info("Schema Validation Failed: ",e.message)
+        raise e
     

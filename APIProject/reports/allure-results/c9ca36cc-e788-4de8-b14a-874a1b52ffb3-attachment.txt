@@ -1,0 +1,4 @@
+[32mINFO    [0m root:conftest.py:20 Starting test: test_add_object
+[32mINFO    [0m root:test_add_object.py:22 Schema Validation passed
+[32mINFO    [0m root:test_add_object.py:23 ff8081819782e69e019baf9dea00164f
+[32mINFO    [0m root:conftest.py:22 Finished test: test_add_object

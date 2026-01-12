@@ -15,5 +15,4 @@ def test_login_with_users(login):
     # Verify inventory page logo
     logo = driver.find_element(By.CLASS_NAME, "oxd-userdropdown-name")
     logging.info(f"Logged in user: {logo.text}")
-    #assert logo.text == "Swag Labs"
     logging.info(f"Login passed for {username}")

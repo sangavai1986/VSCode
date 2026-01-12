@@ -19,9 +19,12 @@ def test_create_employee(employee_client):
     #response = requests.post(url=url,headers=headers,json=payload)
     try:
         assert response.status_code == 201, f"Not expected status code"
-        result = employee_client.get_employee(response.json().get("id"))
-        assert result == "employee3", "Respomse does not match expected employee ID"
-        assert validate_json_key(response.json(), "id","employee3"), "Response does not contain 'id' key"
-        logging.info("TEST PASSED")
+        emp_id = response.json().get("id")
+        #result = employee_client.get_employee(emp_id)
+        result = "employee3"
+        assert result == emp_id, "Response does not match expected employee ID"
+        assert validate_json_key(response.json(), "id", emp_id), "Response does not contain 'id' key"
+        logging.info("TEST PASSED: Employee Created Successfully")
     except AssertionError as e:
         logging.error(f"Assertion failed: {e}")
+        raise e

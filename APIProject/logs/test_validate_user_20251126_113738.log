@@ -1,5 +1,0 @@
-2025-11-26 11:37:38 [INFO] LOGGING STARTED for: test_validate_user
-2025-11-26 11:37:38 [INFO] Starting test: test_validate
-2025-11-26 11:37:40 [INFO] {'id': '2', 'name': 'Apple iPhone 12 Mini, 256GB, Blue', 'data': None}
-2025-11-26 11:37:40 [INFO] TEST PASSED
-2025-11-26 11:37:40 [INFO] Finished test: test_validate

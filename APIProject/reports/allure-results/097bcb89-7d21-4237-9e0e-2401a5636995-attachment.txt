@@ -1,0 +1,3 @@
+[32mINFO    [0m root:conftest.py:20 Starting test: test_api
+[32mINFO    [0m root:test_api.py:16 API KEY AUTHENTICATION TESTED
+[32mINFO    [0m root:conftest.py:22 Finished test: test_api

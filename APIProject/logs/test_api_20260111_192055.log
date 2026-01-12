@@ -1,0 +1,5 @@
+2026-01-11 19:20:55 [INFO] LOGGING STARTED for: test_api
+2026-01-11 19:20:55 [INFO] Starting test: test_api
+2026-01-11 19:20:55 [ERROR] Assertion failed: assert 401 == 200
+ +  where 401 = <Response [401]>.status_code
+2026-01-11 19:20:55 [INFO] Finished test: test_api

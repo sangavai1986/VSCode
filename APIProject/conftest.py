@@ -1,4 +1,5 @@
 from datetime import datetime
+import json
 import logging
 import pytest
 import os
@@ -6,6 +7,9 @@ import sys
 from api_utils.base_client import BaseClient
 from api_utils.employee_client import EmployeeClient
 from api_utils.payroll_client import PayrollClient
+from pathlib import Path
+
+DATA_DIR = Path(__file__).parent / "data"
 
 # Absolute path to the project root (APIProject folder)
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -53,3 +57,35 @@ def employee_client(base_client):
 @pytest.fixture
 def payroll_client(base_client):
     return PayrollClient(base_client)
+
+@pytest.fixture
+def employee_id(employee_client):
+    # Load payload from JSON file
+    with open(DATA_DIR / "create_employee_payload.json", "r") as f:
+        payload = json.load(f)
+
+    # Create employee
+    response = employee_client.create_employee(payload)
+    emp_id = response.json()["id"]
+
+    # Yield the ID to the test
+    yield emp_id
+
+    # Cleanup after test
+    employee_client.delete_employee(emp_id)
+
+@pytest.fixture
+def payroll_id(payroll_client):
+    # Load payload from JSON file
+    with open(DATA_DIR / "create_payroll_payload.json", "r") as f:
+        payload = json.load(f)
+
+    # Create payroll
+    response = payroll_client.create_payroll(payload)
+    pay_id = response.json()["id"]
+
+    # Yield the ID to the test
+    yield pay_id
+
+    # Cleanup after test
+    payroll_client.delete_payroll(pay_id)   

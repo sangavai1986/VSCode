@@ -1,0 +1,3 @@
+[32mINFO    [0m root:conftest.py:20 Starting test: test_update_employee
+[32mINFO    [0m root:test_update_employee.py:18 TEST PASSED : Employee Updated Successfully for ID employee3
+[32mINFO    [0m root:conftest.py:22 Finished test: test_update_employee

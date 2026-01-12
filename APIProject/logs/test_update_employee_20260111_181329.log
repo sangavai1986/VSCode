@@ -1,0 +1,6 @@
+2026-01-11 18:13:29 [INFO] LOGGING STARTED for: test_update_employee
+2026-01-11 18:13:29 [INFO] Starting test: test_update_employee
+2026-01-11 18:13:30 [ERROR] TEST FAILED: Assertion failed: Not expected status code
+assert 200 == 201
+ +  where 200 = <Response [200]>.status_code
+2026-01-11 18:13:30 [INFO] Finished test: test_update_employee

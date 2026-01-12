@@ -14,6 +14,7 @@ def test_get_employees():
     try:
         assert response.status_code == 200, f"Not expected status code"
         assert validate_json_key(response.json(), "employees","id"), "Response does not contain 'employees' key"
-        logging.info("TEST PASSED")
+        logging.info("TEST PASSED: Employees Retrieved Successfully")
     except AssertionError as e:
         logging.error(f"Assertion failed: {e}")
+        raise e

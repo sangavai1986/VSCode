@@ -1,0 +1,35 @@
+2026-01-10 09:46:33 [INFO] LOGGING STARTED for: pytest_run
+2026-01-10 09:46:33 [INFO] Starting test: test_add_object
+2026-01-10 09:46:34 [INFO] Schema Validation passed
+2026-01-10 09:46:34 [INFO] ff8081819782e69e019ba85f92b608c6
+2026-01-10 09:46:34 [INFO] Finished test: test_add_object
+2026-01-10 09:46:34 [INFO] Starting test: test_api
+2026-01-10 09:46:34 [ERROR] Assertion failed: assert 401 == 200
+ +  where 401 = <Response [401]>.status_code
+2026-01-10 09:46:34 [INFO] Finished test: test_api
+2026-01-10 09:46:34 [INFO] Starting test: test_create_employee
+2026-01-10 09:46:34 [INFO] Finished test: test_create_employee
+2026-01-10 09:46:34 [INFO] Starting test: test_create_payroll
+2026-01-10 09:46:34 [INFO] Finished test: test_create_payroll
+2026-01-10 09:46:34 [INFO] Starting test: test_delete_employee
+2026-01-10 09:46:34 [INFO] Finished test: test_delete_employee
+2026-01-10 09:46:34 [INFO] Starting test: test_delete_payroll
+2026-01-10 09:46:34 [INFO] Finished test: test_delete_payroll
+2026-01-10 09:46:34 [INFO] Starting test: test_get_a_payroll
+2026-01-10 09:46:34 [INFO] Finished test: test_get_a_payroll
+2026-01-10 09:46:34 [INFO] Starting test: test_get_employees
+2026-01-10 09:46:34 [INFO] Base URL: None
+2026-01-10 09:46:34 [INFO] Finished test: test_get_employees
+2026-01-10 09:46:34 [INFO] Starting test: test_mm
+2026-01-10 09:46:35 [INFO] TEST PASSED
+2026-01-10 09:46:35 [INFO] Finished test: test_mm
+2026-01-10 09:46:35 [INFO] Starting test: test_country_iso[India-IN]
+2026-01-10 09:46:35 [INFO] Finished test: test_country_iso[India-IN]
+2026-01-10 09:46:35 [INFO] Starting test: test_country_iso[United States-US]
+2026-01-10 09:46:35 [INFO] Finished test: test_country_iso[United States-US]
+2026-01-10 09:46:35 [INFO] Starting test: test_capital
+2026-01-10 09:46:35 [INFO] Finished test: test_capital
+2026-01-10 09:46:35 [INFO] Starting test: test_update_employee
+2026-01-10 09:46:35 [INFO] Finished test: test_update_employee
+2026-01-10 09:46:35 [INFO] Starting test: test_update_payroll
+2026-01-10 09:46:35 [INFO] Finished test: test_update_payroll
