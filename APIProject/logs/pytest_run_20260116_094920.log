@@ -1,0 +1,105 @@
+2026-01-16 09:49:20 [INFO] LOGGING STARTED for: pytest_run
+2026-01-16 09:49:23 [INFO] Starting test: test_api
+2026-01-16 09:49:23 [INFO] TEST PASSED: API KEY AUTHENTICATION TESTED
+2026-01-16 09:49:23 [INFO] Finished test: test_api
+2026-01-16 09:49:23 [INFO] Starting test: test_api_header
+2026-01-16 09:49:24 [INFO] TEST PASSED: API Header Test Passed
+2026-01-16 09:49:24 [INFO] Finished test: test_api_header
+2026-01-16 09:49:24 [INFO] Starting test: test_api_response_time
+2026-01-16 09:49:24 [INFO] TEST PASSED: API Response Time Test Passed
+2026-01-16 09:49:24 [INFO] Finished test: test_api_response_time
+2026-01-16 09:49:24 [INFO] Starting test: test_api_missing_payload_400
+2026-01-16 09:49:25 [INFO] TEST PASSED: API Missing Payload(400) Test Passed
+2026-01-16 09:49:25 [INFO] Finished test: test_api_missing_payload_400
+2026-01-16 09:49:25 [INFO] Starting test: test_api_basic_auth
+2026-01-16 09:49:25 [INFO] TEST PASSED: API Basic Authentication Test Passed
+2026-01-16 09:49:25 [INFO] Finished test: test_api_basic_auth
+2026-01-16 09:49:25 [INFO] Starting test: test_api_basic_auth_invalid_401
+2026-01-16 09:49:25 [INFO] TEST PASSED: API Invalid Basic Authentication(401) Test Passed
+2026-01-16 09:49:25 [INFO] Finished test: test_api_basic_auth_invalid_401
+2026-01-16 09:49:25 [INFO] Starting test: test_api_not_found_404
+2026-01-16 09:49:25 [INFO] TEST PASSED: API Post Method Not Found(404) Test Passed
+2026-01-16 09:49:25 [INFO] Finished test: test_api_not_found_404
+2026-01-16 09:49:25 [INFO] Starting test: test_api_oauth
+2026-01-16 09:49:26 [INFO] TEST PASSED: API OAuth Authentication Test Passed
+2026-01-16 09:49:26 [INFO] Finished test: test_api_oauth
+2026-01-16 09:49:26 [INFO] Starting test: test_create_employee
+2026-01-16 09:49:26 [INFO] TEST PASSED: Employee Created Successfully
+2026-01-16 09:49:26 [INFO] Cleanup: Employee with ID employee3 deleted successfully.
+2026-01-16 09:49:26 [INFO] Finished test: test_create_employee
+2026-01-16 09:49:26 [INFO] Starting test: test_create_employee_schema
+2026-01-16 09:49:27 [INFO] TEST PASSED:Schema Validation passed for Employee Creation
+2026-01-16 09:49:27 [INFO] Cleanup: Employee with ID employee3 deleted successfully.
+2026-01-16 09:49:27 [INFO] Finished test: test_create_employee_schema
+2026-01-16 09:49:27 [INFO] Starting test: test_create_object
+2026-01-16 09:49:28 [INFO] TEST PASSED : Object Created Successfully
+2026-01-16 09:49:28 [INFO] Cleanup: Object with ID ff8081819782e69e019bc74862866107 deleted successfully.
+2026-01-16 09:49:28 [INFO] Finished test: test_create_object
+2026-01-16 09:49:28 [INFO] Starting test: test_create_object_schema
+2026-01-16 09:49:28 [INFO] TEST PASSED:Schema Validation passed for object Creation
+2026-01-16 09:49:29 [INFO] Cleanup: object with ID ff8081819782e69e019bc74865f46108 deleted successfully.
+2026-01-16 09:49:29 [INFO] Finished test: test_create_object_schema
+2026-01-16 09:49:29 [INFO] Starting test: test_create_payroll
+2026-01-16 09:49:29 [INFO] Finished test: test_create_payroll
+2026-01-16 09:49:29 [INFO] Starting test: test_create_payroll_schema
+2026-01-16 09:49:29 [INFO] TEST PASSED:Schema Validation passed for Payroll Creation
+2026-01-16 09:49:29 [INFO] Cleanup: Payroll with ID payroll3 deleted successfully.
+2026-01-16 09:49:29 [INFO] Finished test: test_create_payroll_schema
+2026-01-16 09:49:29 [INFO] Starting test: test_delete_employee
+2026-01-16 09:49:30 [INFO] TEST PASSED: Employee Deleted Successfully for ID employee3
+2026-01-16 09:49:30 [INFO] Finished test: test_delete_employee
+2026-01-16 09:49:30 [INFO] Starting test: test_delete_object
+2026-01-16 09:49:30 [INFO] Creating object for test...
+2026-01-16 09:49:31 [INFO] TEST PASSED: object Deleted Successfully for ID ff8081819782e69e019bc74870596109
+2026-01-16 09:49:32 [INFO] Finished test: test_delete_object
+2026-01-16 09:49:32 [INFO] Starting test: test_delete_object_schema
+2026-01-16 09:49:32 [INFO] Creating object for test...
+2026-01-16 09:49:36 [INFO] object Deleted Successfully for ID ff8081819782e69e019bc748753e610a
+2026-01-16 09:49:36 [INFO] TEST PASSED:Schema Validation passed for an object deletion
+2026-01-16 09:49:36 [INFO] Finished test: test_delete_object_schema
+2026-01-16 09:49:36 [INFO] Starting test: test_delete_payroll
+2026-01-16 09:49:37 [INFO] TEST PASSED: Payroll Deleted Successfully for ID payroll3
+2026-01-16 09:49:37 [INFO] Finished test: test_delete_payroll
+2026-01-16 09:49:37 [INFO] Starting test: test_get_a_payroll
+2026-01-16 09:49:38 [INFO] TEST PASSED: Payroll Retrieved Successfully for ID payroll3
+2026-01-16 09:49:38 [INFO] Finished test: test_get_a_payroll
+2026-01-16 09:49:38 [INFO] Starting test: test_get_objects
+2026-01-16 09:49:39 [INFO] TEST PASSED: All Inquiries Retrieved Successfully
+2026-01-16 09:49:39 [INFO] Finished test: test_get_objects
+2026-01-16 09:49:39 [INFO] Starting test: test_get_object_by_id
+2026-01-16 09:49:39 [INFO] Creating object for test...
+2026-01-16 09:49:41 [INFO] Finished test: test_get_object_by_id
+2026-01-16 09:49:41 [INFO] Starting test: test_get_employees
+2026-01-16 09:49:41 [INFO] Base URL: https://a404cb5b-fc3a-46d1-a8cc-6f72f08d71db.mock.pstmn.io
+2026-01-16 09:49:42 [INFO] TEST PASSED: Employees Retrieved Successfully
+2026-01-16 09:49:42 [INFO] Finished test: test_get_employees
+2026-01-16 09:49:42 [INFO] Starting test: test_list_object_schema
+2026-01-16 09:49:45 [INFO] TEST PASSED:Schema Validation passed for an object listing
+2026-01-16 09:49:45 [INFO] Cleanup: object with ID ff8081819782e69e019bc7489b45610c deleted successfully.
+2026-01-16 09:49:45 [INFO] Finished test: test_list_object_schema
+2026-01-16 09:49:45 [INFO] Starting test: test_country_iso[India-IN]
+2026-01-16 09:49:45 [INFO] TEST PASSED: ISO code for India is IN
+2026-01-16 09:49:45 [INFO] Finished test: test_country_iso[India-IN]
+2026-01-16 09:49:45 [INFO] Starting test: test_country_iso[United States-US]
+2026-01-16 09:49:45 [INFO] TEST PASSED: ISO code for United States is US
+2026-01-16 09:49:45 [INFO] Finished test: test_country_iso[United States-US]
+2026-01-16 09:49:45 [INFO] Starting test: test_capital
+2026-01-16 09:49:49 [INFO] TEST PASSED: Capital city for IN is New Delhi
+2026-01-16 09:49:49 [INFO] Finished test: test_capital
+2026-01-16 09:49:49 [INFO] Starting test: test_update_employee
+2026-01-16 09:49:50 [INFO] TEST PASSED : Employee Updated Successfully for ID employee3
+2026-01-16 09:49:51 [INFO] Finished test: test_update_employee
+2026-01-16 09:49:51 [INFO] Starting test: test_update_object
+2026-01-16 09:49:51 [INFO] Creating object for test...
+2026-01-16 09:49:52 [INFO] TEST PASSED : Object Updated Successfully
+2026-01-16 09:49:52 [INFO] Cleanup: Object with ID ff8081819782e69e019bc748bf38610d deleted successfully.
+2026-01-16 09:49:53 [INFO] Finished test: test_update_object
+2026-01-16 09:49:53 [INFO] Starting test: test_update_object
+2026-01-16 09:49:53 [INFO] Creating object for test...
+2026-01-16 09:49:53 [INFO] Object Updated Successfully
+2026-01-16 09:49:53 [INFO] TEST PASSED:Schema Validation passed for object Creation
+2026-01-16 09:49:54 [INFO] Cleanup: Object with ID ff8081819782e69e019bc748c5e1610e deleted successfully.
+2026-01-16 09:49:55 [INFO] Finished test: test_update_object
+2026-01-16 09:49:55 [INFO] Starting test: test_update_payroll
+2026-01-16 09:49:55 [INFO] TEST PASSED: Payroll Updated Successfully for ID payroll3
+2026-01-16 09:49:56 [INFO] Finished test: test_update_payroll

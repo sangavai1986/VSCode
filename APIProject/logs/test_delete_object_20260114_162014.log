@@ -1,0 +1,5 @@
+2026-01-14 16:20:14 [INFO] LOGGING STARTED for: test_delete_object
+2026-01-14 16:20:14 [INFO] Starting test: test_delete_object
+2026-01-14 16:20:14 [INFO] Creating object for test...
+2026-01-14 16:20:15 [INFO] TEST PASSED: object Deleted Successfully for ID ff8081819782e69e019bbe61709b4644
+2026-01-14 16:20:16 [INFO] Finished test: test_delete_object

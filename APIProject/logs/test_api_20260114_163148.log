@@ -1,0 +1,25 @@
+2026-01-14 16:31:48 [INFO] LOGGING STARTED for: test_api
+2026-01-14 16:31:48 [INFO] Starting test: test_api
+2026-01-14 16:31:48 [INFO] TEST PASSED: API KEY AUTHENTICATION TESTED
+2026-01-14 16:31:48 [INFO] Finished test: test_api
+2026-01-14 16:31:48 [INFO] Starting test: test_api_header
+2026-01-14 16:31:49 [INFO] TEST PASSED: API Header Test Passed
+2026-01-14 16:31:49 [INFO] Finished test: test_api_header
+2026-01-14 16:31:49 [INFO] Starting test: test_api_response_time
+2026-01-14 16:31:50 [INFO] TEST PASSED: API Response Time Test Passed
+2026-01-14 16:31:50 [INFO] Finished test: test_api_response_time
+2026-01-14 16:31:50 [INFO] Starting test: test_api_missing_payload_400
+2026-01-14 16:31:51 [INFO] TEST PASSED: API Missing Payload(400) Test Passed
+2026-01-14 16:31:51 [INFO] Finished test: test_api_missing_payload_400
+2026-01-14 16:31:51 [INFO] Starting test: test_api_basic_auth
+2026-01-14 16:31:51 [INFO] TEST PASSED: API Basic Authentication Test Passed
+2026-01-14 16:31:51 [INFO] Finished test: test_api_basic_auth
+2026-01-14 16:31:51 [INFO] Starting test: test_api_basic_auth_invalid_401
+2026-01-14 16:31:51 [INFO] TEST PASSED: API Invalid Basic Authentication(401) Test Passed
+2026-01-14 16:31:51 [INFO] Finished test: test_api_basic_auth_invalid_401
+2026-01-14 16:31:51 [INFO] Starting test: test_api_not_found_404
+2026-01-14 16:31:51 [INFO] TEST PASSED: API Post Method Not Found(404) Test Passed
+2026-01-14 16:31:51 [INFO] Finished test: test_api_not_found_404
+2026-01-14 16:31:51 [INFO] Starting test: test_api_oauth
+2026-01-14 16:31:52 [INFO] TEST PASSED: API OAuth Authentication Test Passed
+2026-01-14 16:31:52 [INFO] Finished test: test_api_oauth

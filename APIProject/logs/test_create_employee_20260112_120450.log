@@ -1,5 +1,0 @@
-2026-01-12 12:04:50 [INFO] LOGGING STARTED for: test_create_employee
-2026-01-12 12:04:50 [INFO] Starting test: test_create_employee
-2026-01-12 12:04:52 [INFO] TEST PASSED: Employee Created Successfully
-2026-01-12 12:04:56 [INFO] Cleanup: Employee with ID employee3 deleted successfully.
-2026-01-12 12:04:56 [INFO] Finished test: test_create_employee

@@ -1,0 +1,10 @@
+2026-01-12 12:38:28 [INFO] LOGGING STARTED for: test_soap
+2026-01-12 12:38:33 [INFO] Starting test: test_country_iso[India-IN]
+2026-01-12 12:38:33 [INFO] TEST PASSED: ISO code for India is IN
+2026-01-12 12:38:33 [INFO] Finished test: test_country_iso[India-IN]
+2026-01-12 12:38:33 [INFO] Starting test: test_country_iso[United States-US]
+2026-01-12 12:38:34 [INFO] TEST PASSED: ISO code for United States is US
+2026-01-12 12:38:34 [INFO] Finished test: test_country_iso[United States-US]
+2026-01-12 12:38:34 [INFO] Starting test: test_capital
+2026-01-12 12:38:34 [INFO] TEST PASSED: Capital city for IN is New Delhi
+2026-01-12 12:38:34 [INFO] Finished test: test_capital

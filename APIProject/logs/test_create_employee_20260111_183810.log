@@ -1,5 +1,0 @@
-2026-01-11 18:38:10 [INFO] LOGGING STARTED for: test_create_employee
-2026-01-11 18:38:10 [INFO] Starting test: test_create_employee
-2026-01-11 18:38:10 [ERROR] Assertion failed: Response does not match expected employee ID
-assert <Response [200]> == 'employee3'
-2026-01-11 18:38:11 [INFO] Finished test: test_create_employee

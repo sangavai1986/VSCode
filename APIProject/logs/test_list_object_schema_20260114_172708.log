@@ -1,0 +1,5 @@
+2026-01-14 17:27:08 [INFO] LOGGING STARTED for: test_list_object_schema
+2026-01-14 17:27:09 [INFO] Starting test: test_list_object_schema
+2026-01-14 17:27:10 [INFO] TEST PASSED:Schema Validation passed for an object listing
+2026-01-14 17:27:13 [INFO] Cleanup: object with ID ff8081819782e69e019bbe9eb3b9469c deleted successfully.
+2026-01-14 17:27:13 [INFO] Finished test: test_list_object_schema

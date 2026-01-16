@@ -1,0 +1,6 @@
+2026-01-14 17:44:39 [INFO] LOGGING STARTED for: test_delete_object_schema
+2026-01-14 17:44:39 [INFO] Starting test: test_delete_object_schema
+2026-01-14 17:44:39 [INFO] Creating object for test...
+2026-01-14 17:44:41 [INFO] object Deleted Successfully for ID ff8081819782e69e019bbeaebef246b0
+2026-01-14 17:44:41 [INFO] TEST PASSED:Schema Validation passed for an object deletion
+2026-01-14 17:44:42 [INFO] Finished test: test_delete_object_schema

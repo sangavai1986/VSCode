@@ -1,0 +1,5 @@
+2026-01-14 15:53:56 [INFO] LOGGING STARTED for: test_create_object
+2026-01-14 15:53:57 [INFO] Starting test: test_create_object
+2026-01-14 15:53:58 [INFO] TEST PASSED : Object Created Successfully
+2026-01-14 15:53:58 [INFO] Cleanup: Object with ID ff8081819782e69e019bbe495fa945f5 deleted successfully.
+2026-01-14 15:53:58 [INFO] Finished test: test_create_object

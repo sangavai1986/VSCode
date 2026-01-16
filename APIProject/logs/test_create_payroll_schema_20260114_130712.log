@@ -1,0 +1,5 @@
+2026-01-14 13:07:12 [INFO] LOGGING STARTED for: test_create_payroll_schema
+2026-01-14 13:07:12 [INFO] Starting test: test_create_payroll_schema
+2026-01-14 13:07:13 [INFO] TEST PASSED:Schema Validation passed for Payroll Creation
+2026-01-14 13:07:13 [INFO] Cleanup: Payroll with ID payroll3 deleted successfully.
+2026-01-14 13:07:13 [INFO] Finished test: test_create_payroll_schema

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:conftest.py:21 Starting test: test_get_object_by_id
+[32mINFO    [0m root:conftest.py:104 Creating object for test...
+[32mINFO    [0m root:test_get_all_object.py:27 TEST PASSED : Object Retrieved Successfully for ID ff8081819782e69e019bc754904b612d
+[32mINFO    [0m root:conftest.py:23 Finished test: test_get_object_by_id

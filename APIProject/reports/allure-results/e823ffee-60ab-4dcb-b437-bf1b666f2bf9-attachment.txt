@@ -1,3 +1,0 @@
-[32mINFO    [0m root:conftest.py:20 Starting test: test_delete_employee
-[32mINFO    [0m root:test_delete_employee.py:15 TEST PASSED: Employee Deleted Successfully for ID employee3
-[32mINFO    [0m root:conftest.py:22 Finished test: test_delete_employee

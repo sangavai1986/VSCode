@@ -1,0 +1,8 @@
+2026-01-16 10:02:45 [INFO] LOGGING STARTED for: test_get_all_object
+2026-01-16 10:02:45 [INFO] Starting test: test_get_objects
+2026-01-16 10:02:45 [INFO] TEST PASSED: All Inquiries Retrieved Successfully
+2026-01-16 10:02:45 [INFO] Finished test: test_get_objects
+2026-01-16 10:02:45 [INFO] Starting test: test_get_object_by_id
+2026-01-16 10:02:45 [INFO] Creating object for test...
+2026-01-16 10:02:49 [INFO] TEST PASSED : Object Retrieved Successfully for ID ff8081819782e69e019bc754904b612d
+2026-01-16 10:02:49 [INFO] Finished test: test_get_object_by_id

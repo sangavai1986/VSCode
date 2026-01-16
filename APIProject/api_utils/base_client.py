@@ -1,3 +1,5 @@
+# api_utils/base_client.py
+# BaseClient with retry logic and optional auth handling
 import sys
 import os
 import requests
@@ -11,6 +13,7 @@ class BaseClient:
         self.auth_client = auth_client
         self.timeout = int(os.getenv("API_TIMEOUT", 5))
         self.session = self._create_session()
+    # Creates a requests session with retry logic    
     def _create_session(self):
         retry_strategy = Retry(
             total=3,
@@ -19,11 +22,14 @@ class BaseClient:
             backoff_factor=0.5,
             raise_on_status=False
         )
+        # Attaches the retry logic to HTTP connections.
         adapter = HTTPAdapter(max_retries=retry_strategy)
+        # Reuses a session for connection pooling.
         session = requests.Session()
         session.mount("https://", adapter)
         session.mount("http://", adapter)
         return session
+    
     def _headers(self):
         headers = {"Content-Type": "application/json"}
         if self.auth_client:
@@ -34,6 +40,7 @@ class BaseClient:
             except Exception:
                 pass
         return headers
+    
     def get(self, path):
         return self.session.get(
             self.base_url + path,
@@ -48,6 +55,7 @@ class BaseClient:
             headers=self._headers(),
             timeout=self.timeout
         )
+    
     def put(self, path, payload):
         return self.session.put(
             self.base_url + path,

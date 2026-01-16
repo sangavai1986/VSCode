@@ -1,0 +1,5 @@
+2026-01-14 16:48:49 [INFO] LOGGING STARTED for: test_create_object_schema
+2026-01-14 16:48:49 [INFO] Starting test: test_create_object_schema
+2026-01-14 16:48:50 [INFO] TEST PASSED:Schema Validation passed for object Creation
+2026-01-14 16:48:50 [INFO] Cleanup: object with ID ff8081819782e69e019bbe7b9ad14667 deleted successfully.
+2026-01-14 16:48:50 [INFO] Finished test: test_create_object_schema

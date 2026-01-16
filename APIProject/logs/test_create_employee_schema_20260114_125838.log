@@ -1,0 +1,5 @@
+2026-01-14 12:58:38 [INFO] LOGGING STARTED for: test_create_employee_schema
+2026-01-14 12:58:38 [INFO] Starting test: test_create_employee_schema
+2026-01-14 12:58:39 [INFO] TEST PASSED:Schema Validation passed for Employee Creation
+2026-01-14 12:58:43 [INFO] Cleanup: Employee with ID employee3 deleted successfully.
+2026-01-14 12:58:43 [INFO] Finished test: test_create_employee_schema

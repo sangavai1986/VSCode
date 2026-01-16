@@ -4,15 +4,17 @@ import json
 import logging
 import os
 import requests
+from APIProject.api_utils.payroll_client import PayrollClient
+from APIProject.conftest import client_factory
 from config import headers
 from api_utils.validator import validate_json_key
 
 
-def test_create_payroll(payroll_client):
+def test_create_payroll(client_factory):
     #base_url = os.getenv("base_url")
     #logging.info(f"Base URL: {base_url}")
     #url = base_url + "/employees"
-
+    payroll_client = client_factory(PayrollClient, "BASE_URL", os.getenv("BASE_URL"))
     with open("data/create_payroll_payload.json", "r") as file:
         payload = json.load(file)
     response = payroll_client.create_payroll(payload)

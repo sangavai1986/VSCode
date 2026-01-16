@@ -7,6 +7,7 @@ import sys
 from api_utils.base_client import BaseClient
 from api_utils.employee_client import EmployeeClient
 from api_utils.payroll_client import PayrollClient
+from api_utils.object_client import ObjectClient
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / "data"
@@ -45,18 +46,21 @@ def pytest_configure(config):
     )
 
     logging.info(f"LOGGING STARTED for: {script_name}")
+@pytest.fixture(scope="session")
+def employee_client(client_factory):
+    # Uses factory to create EmployeeClient with BASE_URL
+    return client_factory(EmployeeClient, "BASE_URL", os.getenv("BASE_URL"))
 
 @pytest.fixture(scope="session")
-def base_client():
-    return BaseClient(os.getenv("BASE_URL"))
+def payroll_client(client_factory):
+    # Uses factory to create PayrollClient with BASE_URL
+    return client_factory(PayrollClient, "BASE_URL", os.getenv("BASE_URL"))
 
-@pytest.fixture
-def employee_client(base_client):
-    return EmployeeClient(base_client)
+@pytest.fixture(scope="session")
+def object_client(client_factory):
+    # Uses factory to create ObjectClient with BASE_URL
+    return client_factory(ObjectClient, "BASE_URL_KEY", os.getenv("BASE_URL_KEY"))
 
-@pytest.fixture
-def payroll_client(base_client):
-    return PayrollClient(base_client)
 
 @pytest.fixture
 def employee_id(employee_client):
@@ -89,3 +93,30 @@ def payroll_id(payroll_client):
 
     # Cleanup after test
     payroll_client.delete_payroll(pay_id)   
+
+@pytest.fixture
+def object_id(object_client):
+   
+    # Load payload from JSON file
+    with open(DATA_DIR / "create_object_payload.json", "r") as f:
+        payload = json.load(f)
+ 
+    logging.info(f"Creating object for test...")
+    # Create object
+    response = object_client.create_object(payload)
+    assert response.status_code == 200, "Failed to create object for fixture"
+        
+    obj_id = response.json()["id"]
+
+    # Yield the ID to the test
+    yield obj_id
+
+    # Cleanup after test
+    object_client.delete_object(obj_id)
+
+@pytest.fixture(scope="session")
+def client_factory():
+    def _create(client_class, base_url, default_url):
+        base_client = BaseClient(os.getenv(base_url, default_url))
+        return client_class(base_client)
+    return _create

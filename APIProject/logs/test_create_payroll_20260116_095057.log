@@ -1,0 +1,5 @@
+2026-01-16 09:50:57 [INFO] LOGGING STARTED for: test_create_payroll
+2026-01-16 09:50:57 [INFO] Starting test: test_create_payroll
+2026-01-16 09:50:58 [INFO] TEST PASSED: Payroll Created Successfully
+2026-01-16 09:50:58 [INFO] Cleanup: Payroll with ID payroll3 deleted successfully.
+2026-01-16 09:50:58 [INFO] Finished test: test_create_payroll
