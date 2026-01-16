@@ -8,7 +8,7 @@ import logging
 from APIProject.config import x_api_key, base_url_key, base_url_auth, AUTH_USERNAME, AUTH_PASSWORD, base_url_oauth
 from api_utils.auth import get_oauth_token
 
-def test_api():
+def test_api_key():
     
     #api_key = os.getenv("x-api-key")
     header = {

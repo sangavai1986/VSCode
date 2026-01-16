@@ -5,7 +5,7 @@ import os
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-from APIProject.config import BASE_URL as base_url
+
 
 class BaseClient:
     def __init__(self, base_url, auth_client=None):
