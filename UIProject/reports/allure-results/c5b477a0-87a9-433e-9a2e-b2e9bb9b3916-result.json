@@ -1,0 +1,1 @@
+{"name": "test_edit_employee[chrome]", "status": "passed", "parameters": [{"name": "driver", "value": "'chrome'"}], "start": 1769719435438, "stop": 1769719751136, "uuid": "06caa74c-d722-44ff-a653-ea76616fa61a", "testCaseId": "ea5bfeb5d1fbd6cc56a1231a26e6954d", "fullName": "tests.test_edit_employee#test_edit_employee", "titlePath": ["tests", "test_edit_employee.py"]}

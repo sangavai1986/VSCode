@@ -1,0 +1,22 @@
+2026-01-20 16:19:26 [INFO] LOGGING STARTED for: test_add_employee
+2026-01-20 16:19:26 [INFO] []
+2026-01-20 16:19:26 [INFO] Running on chrome browser
+2026-01-20 16:19:31 [INFO] Entered text in: Username field
+2026-01-20 16:19:31 [INFO] Entered text in: Password field
+2026-01-20 16:19:31 [INFO] Clicked: Login button
+2026-01-20 16:19:35 [INFO] Clicked: PIM menu
+2026-01-20 16:19:35 [INFO] STEP 1 : Clicked PIM menu
+2026-01-20 16:19:37 [INFO] Clicked: Add Employee button
+2026-01-20 16:19:37 [INFO] Entered text in: First Name field
+2026-01-20 16:19:38 [INFO] Entered text in: Last Name field
+2026-01-20 16:19:38 [INFO] Clicked: Save Employee button
+2026-01-20 16:19:38 [INFO] STEP 2 : Added employee John Doe
+2026-01-20 16:19:38 [INFO] OrangeHRM
+2026-01-20 16:19:42 [INFO] Clicked: Employee List menu
+2026-01-20 16:19:42 [INFO] STEP 3 : Clicked Employee List menu
+2026-01-20 16:19:43 [INFO] Entered text in: Employee Name input
+2026-01-20 16:19:43 [INFO] Clicked: Search button
+2026-01-20 16:20:03 [INFO] STEP 4 : Searched for employee John Doe
+2026-01-20 16:20:03 [INFO] Scrolled to Search button
+2026-01-20 16:20:03 [INFO] Found 1 elements for: 
+2026-01-20 16:20:03 [INFO] STEP 5 : Verified employee John Doe is in search results

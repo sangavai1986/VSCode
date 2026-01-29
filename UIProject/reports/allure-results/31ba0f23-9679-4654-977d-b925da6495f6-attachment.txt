@@ -1,0 +1,21 @@
+[32mINFO    [0m root:conftest.py:27 []
+[32mINFO    [0m root:conftest.py:36 Running on chrome browser
+[32mINFO    [0m root:base_page.py:27 Entered text in: Username field
+[32mINFO    [0m root:base_page.py:27 Entered text in: Password field
+[32mINFO    [0m root:base_page.py:18 Clicked: Login button
+[32mINFO    [0m root:base_page.py:18 Clicked: PIM menu
+[32mINFO    [0m root:base_page.py:56 Found element for: 
+[32mINFO    [0m root:test_add_employee.py:15 STEP 1 : Clicked PIM menu
+[32mINFO    [0m root:base_page.py:18 Clicked: Add Employee button
+[32mINFO    [0m root:base_page.py:56 Found element for: Employee Id field
+[32mINFO    [0m root:pim_page.py:40 New Employee ID: 0398
+[32mINFO    [0m root:base_page.py:27 Entered text in: First Name field
+[32mINFO    [0m root:base_page.py:27 Entered text in: Last Name field
+[32mINFO    [0m root:base_page.py:18 Clicked: Save Employee button
+[32mINFO    [0m root:test_add_employee.py:20 STEP 2 : Added employee John Doe
+[32mINFO    [0m root:base_page.py:18 Clicked: Employee List menu
+[32mINFO    [0m root:base_page.py:56 Found element for: Employee List Header
+[32mINFO    [0m root:test_add_employee.py:24 STEP 3 : Clicked Employee List menu
+[32mINFO    [0m root:base_page.py:27 Entered text in: Employee Name input
+[32mINFO    [0m root:base_page.py:18 Clicked: Search button
+[32mINFO    [0m root:base_page.py:38 Found 50 elements for: Employee Table Rows

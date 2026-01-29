@@ -1,0 +1,18 @@
+[32mINFO    [0m root:conftest.py:27 []
+[32mINFO    [0m root:conftest.py:36 Running on chrome browser
+[32mINFO    [0m root:base_page.py:27 Entered text in: Username field
+[32mINFO    [0m root:base_page.py:27 Entered text in: Password field
+[32mINFO    [0m root:base_page.py:18 Clicked: Login button
+[32mINFO    [0m root:base_page.py:18 Clicked: PIM menu
+[32mINFO    [0m root:base_page.py:56 Found element for: 
+[32mINFO    [0m root:test_search.py:17 STEP 1 : Clicked PIM menu
+[32mINFO    [0m root:base_page.py:18 Clicked: Employee List menu
+[32mINFO    [0m root:base_page.py:56 Found element for: Employee List Header
+[32mINFO    [0m root:test_search.py:23 STEP 2 : Clicked Employee List menu
+[32mINFO    [0m root:base_page.py:27 Entered text in: Employee Name input
+[32mINFO    [0m root:base_page.py:18 Clicked: Search button
+[32mINFO    [0m root:test_search.py:27 STEP 3 : Searched for employee Charles Carter
+[32mINFO    [0m root:base_page.py:38 Found 1 elements for: 
+[32mINFO    [0m root:pim_page.py:88 rows in search results: [<selenium.webdriver.remote.webelement.WebElement (session="4f9189206bee7e63f14cdaf2a8695a7a", element="f.E4E9CA5BA3640C8A79AE7B4B11D1BB86.d.676CE359043874446F4E9C083F276D16.e.123")>]
+[32mINFO    [0m root:pim_page.py:92 Employee Charles found in search results
+[32mINFO    [0m root:test_search.py:33 STEP 4 : Verified employee Charles Carter is in search results

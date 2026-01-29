@@ -1,0 +1,55 @@
+[32mINFO    [0m root:conftest.py:27 []
+[32mINFO    [0m root:conftest.py:36 Running on chrome browser
+[32mINFO    [0m root:base_page.py:27 Entered text in: Username field
+[32mINFO    [0m root:base_page.py:27 Entered text in: Password field
+[32mINFO    [0m root:base_page.py:18 Clicked: Login button
+[1m[31mERROR   [0m root:base_page.py:64 Click failed - PIM menu
+[1m[31mERROR   [0m root:base_page.py:65 Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff79087a535
+	0x7ff79087a590
+	0x7ff7906210bd
+	0x7ff79067c48e
+	0x7ff79067c79c
+	0x7ff7906cd3a7
+	0x7ff7906c9ef5
+	0x7ff79066cc9c
+	0x7ff79066dbe3
+	0x7ff790b57b60
+	0x7ff790b51f5d
+	0x7ff790b7311a
+	0x7ff7908960a5
+	0x7ff79089e73c
+	0x7ff790883844
+	0x7ff7908839f6
+	0x7ff790869a07
+	0x7ffd0903e8d7
+	0x7ffd0a0ec53c
+Traceback (most recent call last):
+  File "C:\Users\eksri\NMMProject\UIProject\pages\base_page.py", line 16, in click
+    element = self.wait.until(EC.element_to_be_clickable(locator))
+  File "c:\Users\eksri\NMMProject\.venv\lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff79087a535
+	0x7ff79087a590
+	0x7ff7906210bd
+	0x7ff79067c48e
+	0x7ff79067c79c
+	0x7ff7906cd3a7
+	0x7ff7906c9ef5
+	0x7ff79066cc9c
+	0x7ff79066dbe3
+	0x7ff790b57b60
+	0x7ff790b51f5d
+	0x7ff790b7311a
+	0x7ff7908960a5
+	0x7ff79089e73c
+	0x7ff790883844
+	0x7ff7908839f6
+	0x7ff790869a07
+	0x7ffd0903e8d7
+	0x7ffd0a0ec53c

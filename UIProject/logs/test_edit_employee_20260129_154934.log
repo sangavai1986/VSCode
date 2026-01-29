@@ -1,0 +1,57 @@
+2026-01-29 15:49:34 [INFO] LOGGING STARTED for: test_edit_employee
+2026-01-29 15:49:34 [INFO] []
+2026-01-29 15:49:34 [INFO] Running on chrome browser
+2026-01-29 15:49:41 [INFO] Entered text in: Username field
+2026-01-29 15:49:42 [INFO] Entered text in: Password field
+2026-01-29 15:49:42 [INFO] Clicked: Login button
+2026-01-29 15:49:52 [ERROR] Click failed - PIM menu
+2026-01-29 15:49:52 [ERROR] Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7483ea535
+	0x7ff7483ea590
+	0x7ff7481910bd
+	0x7ff7481ec48e
+	0x7ff7481ec79c
+	0x7ff74823d3a7
+	0x7ff748239ef5
+	0x7ff7481dcc9c
+	0x7ff7481ddbe3
+	0x7ff7486c7b60
+	0x7ff7486c1f5d
+	0x7ff7486e311a
+	0x7ff7484060a5
+	0x7ff74840e73c
+	0x7ff7483f3844
+	0x7ff7483f39f6
+	0x7ff7483d9a07
+	0x7ffd0903e8d7
+	0x7ffd0a0ec53c
+Traceback (most recent call last):
+  File "C:\Users\eksri\NMMProject\UIProject\pages\base_page.py", line 16, in click
+    element = self.wait.until(EC.element_to_be_clickable(locator))
+  File "c:\Users\eksri\NMMProject\.venv\lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7483ea535
+	0x7ff7483ea590
+	0x7ff7481910bd
+	0x7ff7481ec48e
+	0x7ff7481ec79c
+	0x7ff74823d3a7
+	0x7ff748239ef5
+	0x7ff7481dcc9c
+	0x7ff7481ddbe3
+	0x7ff7486c7b60
+	0x7ff7486c1f5d
+	0x7ff7486e311a
+	0x7ff7484060a5
+	0x7ff74840e73c
+	0x7ff7483f3844
+	0x7ff7483f39f6
+	0x7ff7483d9a07
+	0x7ffd0903e8d7
+	0x7ffd0a0ec53c
+

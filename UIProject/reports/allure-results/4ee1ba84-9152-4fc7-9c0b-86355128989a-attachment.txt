@@ -1,0 +1,4 @@
+[32mINFO    [0m root:conftest.py:25 []
+[32mINFO    [0m root:conftest.py:34 Running on chrome browser
+[32mINFO    [0m root:conftest.py:70 Login successful for user: Admin
+[32mINFO    [0m root:test_search.py:18 Navigated to PIM section

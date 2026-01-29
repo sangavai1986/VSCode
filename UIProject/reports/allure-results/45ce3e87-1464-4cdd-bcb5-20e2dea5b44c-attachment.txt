@@ -1,0 +1,13 @@
+[32mINFO    [0m root:conftest.py:27 []
+[32mINFO    [0m root:conftest.py:36 Running on chrome browser
+[32mINFO    [0m root:base_page.py:25 Entered text in: Username field
+[32mINFO    [0m root:base_page.py:25 Entered text in: Password field
+[32mINFO    [0m root:base_page.py:16 Clicked: Login button
+[32mINFO    [0m root:base_page.py:16 Clicked: PIM menu
+[32mINFO    [0m root:test_add_employee.py:20 STEP 1 : Clicked PIM menu
+[32mINFO    [0m root:base_page.py:16 Clicked: Add Employee button
+[32mINFO    [0m root:base_page.py:25 Entered text in: First Name field
+[32mINFO    [0m root:base_page.py:25 Entered text in: Last Name field
+[32mINFO    [0m root:base_page.py:16 Clicked: Save Employee button
+[32mINFO    [0m root:test_add_employee.py:25 STEP 2 : Added employee John Doe
+[32mINFO    [0m root:base_page.py:16 Clicked: Employee List menu

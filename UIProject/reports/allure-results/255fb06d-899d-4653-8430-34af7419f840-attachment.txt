@@ -1,0 +1,54 @@
+[32mINFO    [0m root:conftest.py:27 []
+[32mINFO    [0m root:conftest.py:36 Running on chrome browser
+[1m[31mERROR   [0m root:base_page.py:30 Send keys failed - Username field
+[1m[31mERROR   [0m root:base_page.py:31 Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff76adf88d5
+	0x7ff76adf8930
+	0x7ff76abd165d
+	0x7ff76ac29a33
+	0x7ff76ac29d3c
+	0x7ff76ac7df67
+	0x7ff76ac7ac97
+	0x7ff76ac1ac29
+	0x7ff76ac1ba93
+	0x7ff76b110620
+	0x7ff76b10af60
+	0x7ff76b1296c6
+	0x7ff76ae15dd4
+	0x7ff76ae1ed7c
+	0x7ff76ae01ff4
+	0x7ff76ae021a5
+	0x7ff76ade7ed2
+	0x7ff98d0ee8d7
+	0x7ff98db0c53c
+Traceback (most recent call last):
+  File "C:\Users\eksri\NMMProject\UIProject\pages\base_page.py", line 22, in send_keys
+    element = self.wait.until(EC.visibility_of_element_located(locator))
+  File "c:\Users\eksri\NMMProject\.venv\lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff76adf88d5
+	0x7ff76adf8930
+	0x7ff76abd165d
+	0x7ff76ac29a33
+	0x7ff76ac29d3c
+	0x7ff76ac7df67
+	0x7ff76ac7ac97
+	0x7ff76ac1ac29
+	0x7ff76ac1ba93
+	0x7ff76b110620
+	0x7ff76b10af60
+	0x7ff76b1296c6
+	0x7ff76ae15dd4
+	0x7ff76ae1ed7c
+	0x7ff76ae01ff4
+	0x7ff76ae021a5
+	0x7ff76ade7ed2
+	0x7ff98d0ee8d7
+	0x7ff98db0c53c
+
+[1m[31mERROR   [0m root:base_page.py:38 Screenshot saved: screenshots/Send keys failed_20260118-100641.png

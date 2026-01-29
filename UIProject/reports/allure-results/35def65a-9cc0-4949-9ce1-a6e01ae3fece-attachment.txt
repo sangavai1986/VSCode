@@ -1,0 +1,5 @@
+[32mINFO    [0m root:conftest.py:27 []
+[32mINFO    [0m root:conftest.py:36 Running on chrome browser
+[32mINFO    [0m root:base_page.py:25 Entered text in: Username field
+[32mINFO    [0m root:base_page.py:25 Entered text in: Password field
+[32mINFO    [0m root:base_page.py:16 Clicked: Login button

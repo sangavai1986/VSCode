@@ -1,0 +1,2 @@
+[32mINFO    [0m root:conftest.py:25 []
+[32mINFO    [0m root:conftest.py:34 Running on chrome browser

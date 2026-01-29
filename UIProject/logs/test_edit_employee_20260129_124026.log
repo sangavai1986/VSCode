@@ -1,0 +1,15 @@
+2026-01-29 12:40:26 [INFO] LOGGING STARTED for: test_edit_employee
+2026-01-29 12:40:26 [INFO] []
+2026-01-29 12:40:26 [INFO] Running on chrome browser
+2026-01-29 12:40:33 [INFO] Entered text in: Username field
+2026-01-29 12:40:34 [INFO] Entered text in: Password field
+2026-01-29 12:40:34 [INFO] Clicked: Login button
+2026-01-29 12:40:47 [INFO] Clicked: PIM menu
+2026-01-29 12:40:48 [INFO] Found element for: 
+2026-01-29 12:40:48 [INFO] STEP 1 : Clicked PIM menu
+2026-01-29 12:40:51 [INFO] Clicked: Add Employee button
+2026-01-29 12:40:52 [INFO] Found element for: Employee Id field
+2026-01-29 12:40:52 [INFO] New Employee ID: 0479
+2026-01-29 12:40:52 [INFO] Entered text in: First Name field
+2026-01-29 12:40:53 [INFO] Entered text in: Last Name field
+2026-01-29 12:40:53 [INFO] Clicked: Save Employee button

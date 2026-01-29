@@ -1,0 +1,2 @@
+[32mINFO    [0m root:conftest.py:34 Running on chrome browser
+[32mINFO    [0m root:conftest.py:70 Login successful for user: Admin

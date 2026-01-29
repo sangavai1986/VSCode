@@ -1,0 +1,23 @@
+[32mINFO    [0m root:conftest.py:27 []
+[32mINFO    [0m root:conftest.py:36 Running on chrome browser
+[32mINFO    [0m root:base_page.py:27 Entered text in: Username field
+[32mINFO    [0m root:base_page.py:27 Entered text in: Password field
+[32mINFO    [0m root:base_page.py:18 Clicked: Login button
+[32mINFO    [0m root:base_page.py:18 Clicked: PIM menu
+[32mINFO    [0m root:base_page.py:56 Found element for: 
+[32mINFO    [0m root:test_add_employee.py:21 STEP 1 : Clicked PIM menu
+[32mINFO    [0m root:base_page.py:18 Clicked: Add Employee button
+[32mINFO    [0m root:base_page.py:27 Entered text in: First Name field
+[32mINFO    [0m root:base_page.py:27 Entered text in: Last Name field
+[32mINFO    [0m root:base_page.py:18 Clicked: Save Employee button
+[1m[31mERROR   [0m root:base_page.py:59 Find element failed - 
+[1m[31mERROR   [0m root:base_page.py:64 Find element failed - 
+[1m[31mERROR   [0m root:base_page.py:65 WebDriver.find_element() takes from 1 to 3 positional arguments but 13 were given
+Traceback (most recent call last):
+  File "C:\Users\eksri\NMMProject\UIProject\pages\base_page.py", line 53, in find_element
+    element = self.wait.until(EC.visibility_of_element_located(locator))
+  File "c:\Users\eksri\NMMProject\.venv\lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+  File "c:\Users\eksri\NMMProject\.venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 217, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+TypeError: WebDriver.find_element() takes from 1 to 3 positional arguments but 13 were given

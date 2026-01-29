@@ -5,8 +5,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pytest
-from UIProject.utils.webdriver_factory import create_driver
+from UIProject.config import BASE_PASSWORD, BASE_URL, BASE_USERNAME
+from UIProject.pages.login_page import LoginPage
+from UIProject.ui_utils.webdriver_factory import create_driver
 
+print(">>> UIProject conftest LOADED <<<")
 # The Special hook function to customize command line options
 # Example : pytest --webbrowser=chrome --webbrowser=edge
 def pytest_addoption(parser):
@@ -26,14 +29,6 @@ def browser_list(request):
         browsers = ["chrome"]  # default
     return browsers
 
-@pytest.fixture(scope="session")
-def base_url():
-    print("Inside base_url")
-    url = os.getenv("BASE_URL_UI")
-    #Get Base URL from environment variable
-    # "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
-    return url
-
 # driver fixture
 @pytest.fixture(scope="function")
 def driver(request,browser_list):
@@ -43,18 +38,20 @@ def driver(request,browser_list):
     yield driver
     driver.quit()
 
+'''
 # login fixture
 @pytest.fixture
-def login(request, driver, base_url ):
+def login(request, driver ):
     """
     Log in before each test function.
-    Uses parametrize values from the test.
+    Uses parametrize values from the test if provided.
+    Otherwise falls back to BASE_USERNAME and BASE_PASSWORD.
     """
-    username = request.param["username"]
-    password = request.param["password"]
+    username = request.param["username"] if hasattr(request, "param") else BASE_USERNAME
+    password = request.param["password"] if hasattr(request, "param") else BASE_PASSWORD
     print("Logging in with ", username, password)
 
-    driver.get(base_url)
+    driver.get(BASE_URL)
     driver.maximize_window()
     timeout = 10
     # Wait until username field is visible
@@ -75,8 +72,16 @@ def login(request, driver, base_url ):
     )
     logging.info(f"Login successful for user: {username}")
 
-    return driver,request.param
+    return driver, {"username": username, "password": password}
 
+'''
+@pytest.fixture
+def logged_in_driver(driver):
+    driver.get(BASE_URL)
+    driver.maximize_window()
+    login_page = LoginPage(driver)
+    login_page.login(BASE_USERNAME, BASE_PASSWORD)
+    return driver
 
 def logout(driver):
     # Open side menu

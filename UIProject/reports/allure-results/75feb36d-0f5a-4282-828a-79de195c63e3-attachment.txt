@@ -1,0 +1,71 @@
+[32mINFO    [0m root:conftest.py:27 []
+[32mINFO    [0m root:conftest.py:36 Running on chrome browser
+[32mINFO    [0m root:base_page.py:27 Entered text in: Username field
+[32mINFO    [0m root:base_page.py:27 Entered text in: Password field
+[32mINFO    [0m root:base_page.py:18 Clicked: Login button
+[32mINFO    [0m root:base_page.py:18 Clicked: PIM menu
+[32mINFO    [0m root:base_page.py:56 Found element for: 
+[32mINFO    [0m root:test_add_employee.py:21 STEP 1 : Clicked PIM menu
+[32mINFO    [0m root:base_page.py:18 Clicked: Add Employee button
+[32mINFO    [0m root:base_page.py:27 Entered text in: First Name field
+[32mINFO    [0m root:base_page.py:27 Entered text in: Last Name field
+[32mINFO    [0m root:base_page.py:18 Clicked: Save Employee button
+[32mINFO    [0m root:test_add_employee.py:26 STEP 2 : Added employee John Doe
+[32mINFO    [0m root:base_page.py:18 Clicked: Employee List menu
+[32mINFO    [0m root:base_page.py:56 Found element for: Employee List Header
+[32mINFO    [0m root:test_add_employee.py:30 STEP 3 : Clicked Employee List menu
+[32mINFO    [0m root:base_page.py:27 Entered text in: Employee Name input
+[32mINFO    [0m root:base_page.py:18 Clicked: Search button
+[32mINFO    [0m root:base_page.py:38 Found 2 elements for: 
+[32mINFO    [0m root:test_add_employee.py:34 STEP 4 : Searched for employee John Doe
+[32mINFO    [0m root:base_page.py:38 Found 2 elements for: 
+[1m[31mERROR   [0m root:base_page.py:64 Click failed - Checkbox for employee ID 0381
+[1m[31mERROR   [0m root:base_page.py:65 Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff71002a535
+	0x7ff71002a590
+	0x7ff70fdd10bd
+	0x7ff70fe2c48e
+	0x7ff70fe2c79c
+	0x7ff70fe7d3a7
+	0x7ff70fe79ef5
+	0x7ff70fe1cc9c
+	0x7ff70fe1dbe3
+	0x7ff710307b60
+	0x7ff710301f5d
+	0x7ff71032311a
+	0x7ff7100460a5
+	0x7ff71004e73c
+	0x7ff710033844
+	0x7ff7100339f6
+	0x7ff710019a07
+	0x7ffd0903e8d7
+	0x7ffd0a0ec53c
+Traceback (most recent call last):
+  File "C:\Users\eksri\NMMProject\UIProject\pages\base_page.py", line 16, in click
+    element = self.wait.until(EC.element_to_be_clickable(locator))
+  File "c:\Users\eksri\NMMProject\.venv\lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff71002a535
+	0x7ff71002a590
+	0x7ff70fdd10bd
+	0x7ff70fe2c48e
+	0x7ff70fe2c79c
+	0x7ff70fe7d3a7
+	0x7ff70fe79ef5
+	0x7ff70fe1cc9c
+	0x7ff70fe1dbe3
+	0x7ff710307b60
+	0x7ff710301f5d
+	0x7ff71032311a
+	0x7ff7100460a5
+	0x7ff71004e73c
+	0x7ff710033844
+	0x7ff7100339f6
+	0x7ff710019a07
+	0x7ffd0903e8d7
+	0x7ffd0a0ec53c

@@ -1,0 +1,8 @@
+setup.py
+UIProject.egg-info/PKG-INFO
+UIProject.egg-info/SOURCES.txt
+UIProject.egg-info/dependency_links.txt
+UIProject.egg-info/requires.txt
+UIProject.egg-info/top_level.txt
+tests/test_login.py
+tests/test_search.py

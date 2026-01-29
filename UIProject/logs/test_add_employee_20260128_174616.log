@@ -1,0 +1,26 @@
+2026-01-28 17:46:16 [INFO] LOGGING STARTED for: test_add_employee
+2026-01-28 17:46:16 [INFO] []
+2026-01-28 17:46:16 [INFO] Running on chrome browser
+2026-01-28 17:46:22 [INFO] Entered text in: Username field
+2026-01-28 17:46:22 [INFO] Entered text in: Password field
+2026-01-28 17:46:22 [INFO] Clicked: Login button
+2026-01-28 17:46:25 [INFO] Clicked: PIM menu
+2026-01-28 17:46:26 [INFO] Found element for: 
+2026-01-28 17:46:26 [INFO] STEP 1 : Clicked PIM menu
+2026-01-28 17:46:27 [INFO] Clicked: Add Employee button
+2026-01-28 17:46:27 [INFO] Found element for: Employee Id field
+2026-01-28 17:46:27 [INFO] New Employee ID: 0401
+2026-01-28 17:46:27 [INFO] Entered text in: First Name field
+2026-01-28 17:46:28 [INFO] Entered text in: Last Name field
+2026-01-28 17:46:28 [INFO] Clicked: Save Employee button
+2026-01-28 17:46:34 [INFO] STEP 2 : Added employee John Doe
+2026-01-28 17:46:35 [INFO] Clicked: Employee List menu
+2026-01-28 17:46:36 [INFO] Found element for: Employee List Header
+2026-01-28 17:46:36 [INFO] STEP 3 : Clicked Employee List menu
+2026-01-28 17:46:36 [INFO] Entered text in: Employee Name input
+2026-01-28 17:46:36 [INFO] Clicked: Search button
+2026-01-28 17:46:37 [INFO] Found 1 elements for: Employee Table Rows
+2026-01-28 17:46:37 [INFO] STEP 4 : Searched for employee John Doe
+2026-01-28 17:46:37 [INFO] Found 1 elements for: Employee Table Rows
+2026-01-28 17:46:37 [INFO] Clicked: Confirm Delete button
+2026-01-28 17:46:37 [INFO] Cleanup: Deleted employee with ID 0401

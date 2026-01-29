@@ -1,0 +1,6 @@
+[32mINFO    [0m root:conftest.py:27 []
+[32mINFO    [0m root:conftest.py:36 Running on chrome browser
+[32mINFO    [0m root:base_page.py:26 Entered text in: Username field
+[32mINFO    [0m root:base_page.py:26 Entered text in: Password field
+[32mINFO    [0m root:base_page.py:17 Clicked: Login button
+[32mINFO    [0m root:base_page.py:17 Clicked: PIM menu

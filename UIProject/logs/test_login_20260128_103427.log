@@ -1,0 +1,7 @@
+2026-01-28 10:34:27 [INFO] LOGGING STARTED for: test_login
+2026-01-28 10:34:27 [INFO] []
+2026-01-28 10:34:27 [INFO] Running on chrome browser
+2026-01-28 10:34:34 [INFO] Entered text in: Username field
+2026-01-28 10:34:35 [INFO] Entered text in: Password field
+2026-01-28 10:34:35 [INFO] Clicked: Login button
+2026-01-28 10:34:40 [INFO] Logged in user: hMGUtnQsMj Tester
